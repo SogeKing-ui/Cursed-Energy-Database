@@ -1,0 +1,799 @@
+[
+  {
+    "id": 1,
+    "name": "Yuji Itadori",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 3,
+      "species_name": "Vessel"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "Sukuna's vessel and a first-year student with extraordinary physical strength.",
+    "cursedTechniques": [
+      {
+        "id": 100,
+        "technique_name": "Divergent Fist"
+      },
+      {
+        "id": 101,
+        "technique_name": "Black Flash"
+      },
+      {
+        "id": 102,
+        "technique_name": "Cleave (via Sukuna)"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/yuji-itadori.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Megumi Fushiguro",
+    "alias": [],
+    "grade": {
+      "id": 3,
+      "name": "Grade 2"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A first-year student who wields the Ten Shadows Technique.",
+    "cursedTechniques": [
+      {
+        "id": 200,
+        "technique_name": "Ten Shadows Technique"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Chimera Shadow Garden"
+    },
+    "image": "images/megumi-fushiguro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nobara Kugisaki",
+    "alias": [],
+    "grade": {
+      "id": 4,
+      "name": "Grade 3"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A first-year student who fights with a hammer, nails and her Straw Doll Technique.",
+    "cursedTechniques": [
+      {
+        "id": 300,
+        "technique_name": "Straw Doll Technique"
+      },
+      {
+        "id": 301,
+        "technique_name": "Resonance"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/nobara-kugisaki.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Satoru Gojo",
+    "alias": [
+      "The Strongest"
+    ],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "The strongest sorcerer alive, wielder of the Six Eyes and Limitless.",
+    "cursedTechniques": [
+      {
+        "id": 400,
+        "technique_name": "Limitless"
+      },
+      {
+        "id": 401,
+        "technique_name": "Six Eyes"
+      },
+      {
+        "id": 402,
+        "technique_name": "Cursed Technique Reversal: Red"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Unlimited Void"
+    },
+    "image": "images/satoru-gojo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ryomen Sukuna",
+    "alias": [
+      "King of Curses"
+    ],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 2,
+      "species_name": "Cursed Spirit"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "The King of Curses, whose fingers are scattered across the world.",
+    "cursedTechniques": [
+      {
+        "id": 500,
+        "technique_name": "Cleave"
+      },
+      {
+        "id": 501,
+        "technique_name": "Dismantle"
+      },
+      {
+        "id": 502,
+        "technique_name": "Fuga"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Malevolent Shrine"
+    },
+    "image": "images/ryomen-sukuna.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Kento Nanami",
+    "alias": [
+      "Nanamin"
+    ],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A former salaryman turned sorcerer who uses the Ratio Technique.",
+    "cursedTechniques": [
+      {
+        "id": 600,
+        "technique_name": "Ratio Technique"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/kento-nanami.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Maki Zenin",
+    "alias": [],
+    "grade": {
+      "id": 3,
+      "name": "Grade 2"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A skilled weapons user born without cursed energy who later gains immense physical power.",
+    "cursedTechniques": [
+      {
+        "id": 700,
+        "technique_name": "Heavenly Restriction"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/maki-zenin.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Toge Inumaki",
+    "alias": [],
+    "grade": {
+      "id": 3,
+      "name": "Grade 2"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A second-year student whose Cursed Speech compels others to obey.",
+    "cursedTechniques": [
+      {
+        "id": 800,
+        "technique_name": "Cursed Speech"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/toge-inumaki.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Panda",
+    "alias": [],
+    "grade": {
+      "id": 3,
+      "name": "Grade 2"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A mutated cursed corpse with a human-like mind, created by Masamichi Yaga.",
+    "cursedTechniques": [
+      {
+        "id": 900,
+        "technique_name": "Cursed Corpse Technique"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/panda.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Yuta Okkotsu",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A special grade sorcerer once bound to the cursed spirit Rika.",
+    "cursedTechniques": [
+      {
+        "id": 1000,
+        "technique_name": "Copy"
+      },
+      {
+        "id": 1001,
+        "technique_name": "Rika"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Authentic Mutual Love"
+    },
+    "image": "images/yuta-okkotsu.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Aoi Todo",
+    "alias": [
+      "Brother"
+    ],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Kyoto Jujutsu High",
+    "description": "A Kyoto student with a bizarre sense of humor and a powerful Boogie Woogie technique.",
+    "cursedTechniques": [
+      {
+        "id": 1100,
+        "technique_name": "Boogie Woogie"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/aoi-todo.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Mai Zenin",
+    "alias": [],
+    "grade": {
+      "id": 4,
+      "name": "Grade 3"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Kyoto Jujutsu High",
+    "description": "Maki's twin sister, who can create bullets from cursed energy.",
+    "cursedTechniques": [
+      {
+        "id": 1200,
+        "technique_name": "Construction"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/mai-zenin.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Kasumi Miwa",
+    "alias": [],
+    "grade": {
+      "id": 4,
+      "name": "Grade 3"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Kyoto Jujutsu High",
+    "description": "A Kyoto student who fights with the Simple Domain and a sword.",
+    "cursedTechniques": [
+      {
+        "id": 1300,
+        "technique_name": "New Shadow Style Simple Domain"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/kasumi-miwa.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Noritoshi Kamo",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Kyoto Jujutsu High",
+    "description": "The heir of the Kamo family and a master of Blood Manipulation.",
+    "cursedTechniques": [
+      {
+        "id": 1400,
+        "technique_name": "Blood Manipulation"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/noritoshi-kamo.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Suguru Geto",
+    "alias": [
+      "Curse Manipulator"
+    ],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "A former sorcerer who turned against non-sorcerers and absorbs curses.",
+    "cursedTechniques": [
+      {
+        "id": 1500,
+        "technique_name": "Cursed Spirit Manipulation"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/suguru-geto.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Mahito",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 2,
+      "species_name": "Cursed Spirit"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "A special grade cursed spirit born from human hatred of one another.",
+    "cursedTechniques": [
+      {
+        "id": 1600,
+        "technique_name": "Idle Transfiguration"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Self-Embodiment of Perfection"
+    },
+    "image": "images/mahito.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Jogo",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 2,
+      "species_name": "Cursed Spirit"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "A volcano-headed cursed spirit born from fear of the earth.",
+    "cursedTechniques": [
+      {
+        "id": 1700,
+        "technique_name": "Disaster Flames"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Coffin of the Iron Mountain"
+    },
+    "image": "images/jogo.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Hanami",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 2,
+      "species_name": "Cursed Spirit"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "A cursed spirit born from humanity's fear of nature.",
+    "cursedTechniques": [
+      {
+        "id": 1800,
+        "technique_name": "Plant Manipulation"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/hanami.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Kenjaku",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "An ancient mastermind who swaps bodies and manipulates events from the shadows.",
+    "cursedTechniques": [
+      {
+        "id": 1900,
+        "technique_name": "Cursed Spirit Manipulation"
+      },
+      {
+        "id": 1901,
+        "technique_name": "Brain Transfer"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/kenjaku.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Toji Fushiguro",
+    "alias": [
+      "Sorcerer Killer"
+    ],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Independent",
+    "description": "A mercenary with no cursed energy but unmatched physical ability.",
+    "cursedTechniques": [
+      {
+        "id": 2000,
+        "technique_name": "Heavenly Restriction"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/toji-fushiguro.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Kinji Hakari",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A third-year student who fights using the Private Pure Love Train.",
+    "cursedTechniques": [
+      {
+        "id": 2100,
+        "technique_name": "Private Pure Love Train"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Idle Death Gamble"
+    },
+    "image": "images/kinji-hakari.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Hiromi Higuruma",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Independent",
+    "description": "A lawyer turned sorcerer who wields the Judgeman.",
+    "cursedTechniques": [
+      {
+        "id": 2200,
+        "technique_name": "Executioner's Sword"
+      },
+      {
+        "id": 2201,
+        "technique_name": "Confiscation"
+      }
+    ],
+    "domainExpansion": {
+      "name": "Deadly Sentencing"
+    },
+    "image": "images/hiromi-higuruma.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Choso",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 4,
+      "species_name": "Cursed Womb"
+    },
+    "affiliation": "Cursed Spirits",
+    "description": "The eldest of the Death Painting Womb brothers and a master of Blood Manipulation.",
+    "cursedTechniques": [
+      {
+        "id": 2300,
+        "technique_name": "Blood Manipulation"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/choso.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Masamichi Yaga",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "The principal of Tokyo Jujutsu High and a maker of cursed corpses.",
+    "cursedTechniques": [
+      {
+        "id": 2400,
+        "technique_name": "Cursed Corpse Technique"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/masamichi-yaga.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Yuki Tsukumo",
+    "alias": [],
+    "grade": {
+      "id": 1,
+      "name": "Special Grade"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Independent",
+    "description": "A free-spirited special grade sorcerer with the power of Star Rage.",
+    "cursedTechniques": [
+      {
+        "id": 2500,
+        "technique_name": "Star Rage"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/yuki-tsukumo.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Naoya Zenin",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 2,
+      "name": "Deceased"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Zenin Clan",
+    "description": "A Zenin clan sorcerer who moves at incredible speed using Projection Sorcery.",
+    "cursedTechniques": [
+      {
+        "id": 2600,
+        "technique_name": "Projection Sorcery"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/naoya-zenin.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Takuma Ino",
+    "alias": [],
+    "grade": {
+      "id": 2,
+      "name": "Grade 1"
+    },
+    "status": {
+      "id": 1,
+      "name": "Alive"
+    },
+    "species": {
+      "id": 1,
+      "species_name": "Human"
+    },
+    "affiliation": "Tokyo Jujutsu High",
+    "description": "A sorcerer who uses shikigami to fight alongside him.",
+    "cursedTechniques": [
+      {
+        "id": 2700,
+        "technique_name": "Shikigami Summoning"
+      }
+    ],
+    "domainExpansion": null,
+    "image": "images/takuma-ino.jpg"
+  }
+]

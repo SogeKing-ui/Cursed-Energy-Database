@@ -20,7 +20,7 @@ function CharacterTable({ characters }) {
             <tr key={c.id}>
               <td>
                 <img
-                  src={c.image}
+                  src={`${import.meta.env.BASE_URL}${c.image}`}
                   alt={c.name}
                   className="char-img"
                   onError={e => { e.target.style.display = "none"; }}
@@ -44,7 +44,7 @@ function CharacterTable({ characters }) {
               </td>
               <td>{c.species?.species_name ?? "—"}</td>
               <td className="domain">
-                {c.domainExpansion ? `🌀 ${c.domainExpansion.name}` : "—"}
+                {c.domainExpansion ? c.domainExpansion.name : "—"}
               </td>
               <td>
                 {c.cursedTechniques?.length > 0

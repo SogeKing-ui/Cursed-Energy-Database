@@ -1,5 +1,5 @@
 function SearchFilter({ search, setSearch, gradeFilter, setGradeFilter, grades, statusFilter, setStatusFilter }) {
-  const statuses = ["All", "Alive", "Dead", "Unknown"];
+  const statuses = ["All", "Alive", "Deceased", "Unknown"];
 
   return (
     <div className="search-filter-wrapper">

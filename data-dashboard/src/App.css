@@ -84,7 +84,10 @@ body {
 
 .stat-card:hover { border-color: #0ea5e9; }
 
-.stat-icon { font-size: 1.8rem; }
+.stat-icon { display: flex; color: #38bdf8; }
+.icon { flex-shrink: 0; vertical-align: -0.2em; }
+.sidebar-logo, .sidebar-link, .header h1 { display: flex; align-items: center; gap: 8px; }
+.sidebar-logo, .header h1 { justify-content: center; }
 .stat-value { font-size: 2rem; font-weight: 700; color: #38bdf8; }
 .stat-label { font-size: 0.8rem; color: #6b7280; text-transform: uppercase; letter-spacing: 0.08em; }
 

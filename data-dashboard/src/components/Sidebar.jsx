@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import Icon from './Icon';
 
 function Sidebar() {
   const location = useLocation();
@@ -9,13 +10,13 @@ function Sidebar() {
 
   return (
     <aside className="sidebar">
-      <div className="sidebar-logo">⚡ CED</div>
+      <div className="sidebar-logo"><Icon name="bolt" size={18} /> CED</div>
       <nav className="sidebar-nav">
         <Link to="/" className={`sidebar-link ${location.pathname === '/' ? 'active' : ''}`}>
-          🏠 Dashboard
+          <Icon name="home" size={18} /> Dashboard
         </Link>
         <button onClick={scrollToTable} className="sidebar-link sidebar-btn">
-          📊 Characters
+          <Icon name="chart" size={18} /> Characters
         </button>
       </nav>
       <div className="sidebar-footer">

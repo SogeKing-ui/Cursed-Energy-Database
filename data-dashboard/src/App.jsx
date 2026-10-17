@@ -12,7 +12,7 @@ import {
 } from "recharts";
 import "./App.css";
 
-const BASE_URL = "https://api.jujutsukaisenapi.site/api/v1";
+const DATA_URL = `${import.meta.env.BASE_URL}characters.json`;
 const PIE_COLORS = ["#00f5d4", "#ef233c", "#8338ec", "#ffbe0b"];
 
 function Dashboard({ characters, loading, error, search, setSearch, gradeFilter, setGradeFilter, grades, statusFilter, setStatusFilter }) {
@@ -49,10 +49,10 @@ function Dashboard({ characters, loading, error, search, setSearch, gradeFilter,
       {!loading && !error && (
         <>
           <div className="stat-grid">
-            <StatCard label="Total Characters" value={totalChars} icon="👥" />
-            <StatCard label="Special Grades" value={specialGrades} icon="💀" />
-            <StatCard label="Domain Expansions" value={withDomain} icon="🌀" />
-            <StatCard label="Still Alive" value={aliveCount} icon="❤️" />
+            <StatCard label="Total Characters" value={totalChars} icon="users" />
+            <StatCard label="Special Grades" value={specialGrades} icon="skull" />
+            <StatCard label="Domain Expansions" value={withDomain} icon="domain" />
+            <StatCard label="Still Alive" value={aliveCount} icon="heart" />
           </div>
 
           <div className="charts-grid">
@@ -111,10 +111,9 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`${BASE_URL}/characters?per_page=100&page=1`);
-        const json = await res.json();
-        const chars = Array.isArray(json) ? json : json.data ?? json;
-        setCharacters(chars);
+        const res = await fetch(DATA_URL);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        setCharacters(await res.json());
         setLoading(false);
       } catch (err) {
         console.error(err);

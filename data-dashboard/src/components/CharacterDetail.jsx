@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
-const BASE_URL = "https://api.jujutsukaisenapi.site/api/v1";
+const DATA_URL = `${import.meta.env.BASE_URL}characters.json`;
 
 function CharacterDetail() {
   const { id } = useParams();
@@ -12,9 +12,10 @@ function CharacterDetail() {
   useEffect(() => {
     const fetchCharacter = async () => {
       try {
-        const res = await fetch(`${BASE_URL}/characters/${id}`);
+        const res = await fetch(DATA_URL);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
-        setCharacter(data);
+        setCharacter(data.find(c => String(c.id) === id) ?? null);
         setLoading(false);
       } catch (err) {
         setError("Failed to load character.");
@@ -34,7 +35,7 @@ function CharacterDetail() {
       <div className="detail-card">
         <div className="detail-header">
           <img
-            src={character.image}
+            src={`${import.meta.env.BASE_URL}${character.image}`}
             alt={character.name}
             className="detail-img"
             onError={e => { e.target.style.display = "none"; }}
@@ -67,7 +68,7 @@ function CharacterDetail() {
           </div>
           <div className="detail-stat">
             <span className="stat-label">Domain Expansion</span>
-            <span>{character.domainExpansion ? `🌀 ${character.domainExpansion.name}` : "—"}</span>
+            <span>{character.domainExpansion ? character.domainExpansion.name : "—"}</span>
           </div>
         </div>
 
